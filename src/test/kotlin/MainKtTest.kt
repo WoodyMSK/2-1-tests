@@ -11,7 +11,7 @@ class MainKtTest {
 
         val card = Mastercard
         val cashTransfer = 200_00
-        val stock = false
+        val stock = true
         val result = moneyTransfers(card, cashTransfer, stock)
         val expected = 2120
 
